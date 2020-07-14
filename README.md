@@ -6,7 +6,7 @@ I encountered the above issue and created this node.js project using pkgcloud ra
 https://developer.rackspace.com/docs/cloud-files/quickstart/?lang=node.js#change-object-metadata
 
 Important:
-I had to modify pkgcloud node module to remove "x-object-meta-" prefix when setting the headers. This project contains the customized pkgcloud node module and you want face the same issue.
+I had to modify pkgcloud node module to remove "x-object-meta-" prefix when setting the headers. This project contains the customized pkgcloud node module and you wan't face the same issue.
 
 pkgcloud/lib/pkgcloud/openstack/storage/storageClient.js
 ```sh
